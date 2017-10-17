@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9817481D1F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981748131F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.m */; };
+		9817481E1F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981748141F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.xib */; };
+		9817481F1F8DFC9900FBC9F7 /* AttendanceFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 981748161F8DFC9900FBC9F7 /* AttendanceFooterReusableView.m */; };
+		981748201F8DFC9900FBC9F7 /* AttendanceFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981748171F8DFC9900FBC9F7 /* AttendanceFooterReusableView.xib */; };
+		981748211F8DFC9900FBC9F7 /* AttendanceListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 981748191F8DFC9900FBC9F7 /* AttendanceListViewCell.m */; };
+		981748221F8DFC9900FBC9F7 /* TitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9817481B1F8DFC9900FBC9F7 /* TitleTableViewCell.m */; };
+		981748231F8DFC9900FBC9F7 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9817481C1F8DFC9900FBC9F7 /* TitleTableViewCell.xib */; };
+		985034641F8F0B8400C329DB /* CustomerCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985034631F8F0B8400C329DB /* CustomerCalendarViewController.m */; };
+		985034671F8F0D8000C329DB /* HTCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 985034661F8F0D8000C329DB /* HTCalendarView.m */; };
+		985034691F8F4CFA00C329DB /* CalendarSetting.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 985034681F8F4CFA00C329DB /* CalendarSetting.bundle */; };
+		9850346D1F8F641C00C329DB /* HTCalDayGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9850346B1F8F641C00C329DB /* HTCalDayGridCell.m */; };
+		9850346E1F8F641C00C329DB /* HTCalDayGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9850346C1F8F641C00C329DB /* HTCalDayGridCell.xib */; };
+		98A9F2EE1F90484400C5ED6C /* NSDate+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9F2ED1F90484400C5ED6C /* NSDate+Calendar.m */; };
+		98A9F2F11F9070B500C5ED6C /* GridCalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9F2F01F9070B500C5ED6C /* GridCalModel.m */; };
+		98CD48B41F7894080060CB22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD48B31F7894080060CB22 /* AppDelegate.m */; };
+		98CD48B71F7894080060CB22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD48B61F7894080060CB22 /* ViewController.m */; };
+		98CD48BA1F7894080060CB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD48B81F7894080060CB22 /* Main.storyboard */; };
+		98CD48BC1F7894080060CB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CD48BB1F7894080060CB22 /* Assets.xcassets */; };
+		98CD48BF1F7894080060CB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD48BD1F7894080060CB22 /* LaunchScreen.storyboard */; };
+		98CD48C21F7894090060CB22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD48C11F7894090060CB22 /* main.m */; };
+		98CD48CC1F7894090060CB22 /* testListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD48CB1F7894090060CB22 /* testListTests.m */; };
+		98CD48D71F7894090060CB22 /* testListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CD48D61F7894090060CB22 /* testListUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CD48C81F7894090060CB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CD48A71F7894080060CB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CD48AE1F7894080060CB22;
+			remoteInfo = testList;
+		};
+		98CD48D31F7894090060CB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CD48A71F7894080060CB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CD48AE1F7894080060CB22;
+			remoteInfo = testList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		981748121F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceCellInListViewCell.h; sourceTree = "<group>"; };
+		981748131F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceCellInListViewCell.m; sourceTree = "<group>"; };
+		981748141F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendanceCellInListViewCell.xib; sourceTree = "<group>"; };
+		981748151F8DFC9900FBC9F7 /* AttendanceFooterReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceFooterReusableView.h; sourceTree = "<group>"; };
+		981748161F8DFC9900FBC9F7 /* AttendanceFooterReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceFooterReusableView.m; sourceTree = "<group>"; };
+		981748171F8DFC9900FBC9F7 /* AttendanceFooterReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendanceFooterReusableView.xib; sourceTree = "<group>"; };
+		981748181F8DFC9900FBC9F7 /* AttendanceListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceListViewCell.h; sourceTree = "<group>"; };
+		981748191F8DFC9900FBC9F7 /* AttendanceListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceListViewCell.m; sourceTree = "<group>"; };
+		9817481A1F8DFC9900FBC9F7 /* TitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleTableViewCell.h; sourceTree = "<group>"; };
+		9817481B1F8DFC9900FBC9F7 /* TitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleTableViewCell.m; sourceTree = "<group>"; };
+		9817481C1F8DFC9900FBC9F7 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		985034621F8F0B8400C329DB /* CustomerCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerCalendarViewController.h; sourceTree = "<group>"; };
+		985034631F8F0B8400C329DB /* CustomerCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerCalendarViewController.m; sourceTree = "<group>"; };
+		985034651F8F0D8000C329DB /* HTCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCalendarView.h; sourceTree = "<group>"; };
+		985034661F8F0D8000C329DB /* HTCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCalendarView.m; sourceTree = "<group>"; };
+		985034681F8F4CFA00C329DB /* CalendarSetting.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CalendarSetting.bundle; sourceTree = "<group>"; };
+		9850346A1F8F641C00C329DB /* HTCalDayGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCalDayGridCell.h; sourceTree = "<group>"; };
+		9850346B1F8F641C00C329DB /* HTCalDayGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCalDayGridCell.m; sourceTree = "<group>"; };
+		9850346C1F8F641C00C329DB /* HTCalDayGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTCalDayGridCell.xib; sourceTree = "<group>"; };
+		98A9F2EC1F90484400C5ED6C /* NSDate+Calendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calendar.h"; sourceTree = "<group>"; };
+		98A9F2ED1F90484400C5ED6C /* NSDate+Calendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calendar.m"; sourceTree = "<group>"; };
+		98A9F2EF1F9070B500C5ED6C /* GridCalModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCalModel.h; sourceTree = "<group>"; };
+		98A9F2F01F9070B500C5ED6C /* GridCalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridCalModel.m; sourceTree = "<group>"; };
+		98CD48AF1F7894080060CB22 /* testList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CD48B21F7894080060CB22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98CD48B31F7894080060CB22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98CD48B51F7894080060CB22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98CD48B61F7894080060CB22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98CD48B91F7894080060CB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98CD48BB1F7894080060CB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98CD48BE1F7894080060CB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98CD48C01F7894080060CB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CD48C11F7894090060CB22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CD48C71F7894090060CB22 /* testListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CD48CB1F7894090060CB22 /* testListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testListTests.m; sourceTree = "<group>"; };
+		98CD48CD1F7894090060CB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CD48D21F7894090060CB22 /* testListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CD48D61F7894090060CB22 /* testListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testListUITests.m; sourceTree = "<group>"; };
+		98CD48D81F7894090060CB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CD48AC1F7894080060CB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD48C41F7894090060CB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD48CF1F7894090060CB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981748111F8DFC9900FBC9F7 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				981748121F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.h */,
+				981748131F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.m */,
+				981748141F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.xib */,
+				981748151F8DFC9900FBC9F7 /* AttendanceFooterReusableView.h */,
+				981748161F8DFC9900FBC9F7 /* AttendanceFooterReusableView.m */,
+				981748171F8DFC9900FBC9F7 /* AttendanceFooterReusableView.xib */,
+				981748181F8DFC9900FBC9F7 /* AttendanceListViewCell.h */,
+				981748191F8DFC9900FBC9F7 /* AttendanceListViewCell.m */,
+				9817481A1F8DFC9900FBC9F7 /* TitleTableViewCell.h */,
+				9817481B1F8DFC9900FBC9F7 /* TitleTableViewCell.m */,
+				9817481C1F8DFC9900FBC9F7 /* TitleTableViewCell.xib */,
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		985034611F8F0B4E00C329DB /* CustomerCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				985034651F8F0D8000C329DB /* HTCalendarView.h */,
+				985034661F8F0D8000C329DB /* HTCalendarView.m */,
+				9850346A1F8F641C00C329DB /* HTCalDayGridCell.h */,
+				9850346B1F8F641C00C329DB /* HTCalDayGridCell.m */,
+				9850346C1F8F641C00C329DB /* HTCalDayGridCell.xib */,
+				98A9F2EC1F90484400C5ED6C /* NSDate+Calendar.h */,
+				98A9F2ED1F90484400C5ED6C /* NSDate+Calendar.m */,
+				98A9F2EF1F9070B500C5ED6C /* GridCalModel.h */,
+				98A9F2F01F9070B500C5ED6C /* GridCalModel.m */,
+				985034681F8F4CFA00C329DB /* CalendarSetting.bundle */,
+			);
+			path = CustomerCalendar;
+			sourceTree = "<group>";
+		};
+		98CD48A61F7894080060CB22 = {
+			isa = PBXGroup;
+			children = (
+				98CD48B11F7894080060CB22 /* testList */,
+				98CD48CA1F7894090060CB22 /* testListTests */,
+				98CD48D51F7894090060CB22 /* testListUITests */,
+				98CD48B01F7894080060CB22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CD48B01F7894080060CB22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CD48AF1F7894080060CB22 /* testList.app */,
+				98CD48C71F7894090060CB22 /* testListTests.xctest */,
+				98CD48D21F7894090060CB22 /* testListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CD48B11F7894080060CB22 /* testList */ = {
+			isa = PBXGroup;
+			children = (
+				981748111F8DFC9900FBC9F7 /* Attendance */,
+				985034611F8F0B4E00C329DB /* CustomerCalendar */,
+				98CD48B21F7894080060CB22 /* AppDelegate.h */,
+				98CD48B31F7894080060CB22 /* AppDelegate.m */,
+				98CD48B51F7894080060CB22 /* ViewController.h */,
+				98CD48B61F7894080060CB22 /* ViewController.m */,
+				985034621F8F0B8400C329DB /* CustomerCalendarViewController.h */,
+				985034631F8F0B8400C329DB /* CustomerCalendarViewController.m */,
+				98CD48B81F7894080060CB22 /* Main.storyboard */,
+				98CD48BB1F7894080060CB22 /* Assets.xcassets */,
+				98CD48BD1F7894080060CB22 /* LaunchScreen.storyboard */,
+				98CD48C01F7894080060CB22 /* Info.plist */,
+				98CD48C11F7894090060CB22 /* main.m */,
+			);
+			path = testList;
+			sourceTree = "<group>";
+		};
+		98CD48CA1F7894090060CB22 /* testListTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CD48CB1F7894090060CB22 /* testListTests.m */,
+				98CD48CD1F7894090060CB22 /* Info.plist */,
+			);
+			path = testListTests;
+			sourceTree = "<group>";
+		};
+		98CD48D51F7894090060CB22 /* testListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98CD48D61F7894090060CB22 /* testListUITests.m */,
+				98CD48D81F7894090060CB22 /* Info.plist */,
+			);
+			path = testListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CD48AE1F7894080060CB22 /* testList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CD48DB1F7894090060CB22 /* Build configuration list for PBXNativeTarget "testList" */;
+			buildPhases = (
+				98CD48AB1F7894080060CB22 /* Sources */,
+				98CD48AC1F7894080060CB22 /* Frameworks */,
+				98CD48AD1F7894080060CB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testList;
+			productName = testList;
+			productReference = 98CD48AF1F7894080060CB22 /* testList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CD48C61F7894090060CB22 /* testListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CD48DE1F7894090060CB22 /* Build configuration list for PBXNativeTarget "testListTests" */;
+			buildPhases = (
+				98CD48C31F7894090060CB22 /* Sources */,
+				98CD48C41F7894090060CB22 /* Frameworks */,
+				98CD48C51F7894090060CB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CD48C91F7894090060CB22 /* PBXTargetDependency */,
+			);
+			name = testListTests;
+			productName = testListTests;
+			productReference = 98CD48C71F7894090060CB22 /* testListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98CD48D11F7894090060CB22 /* testListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CD48E11F7894090060CB22 /* Build configuration list for PBXNativeTarget "testListUITests" */;
+			buildPhases = (
+				98CD48CE1F7894090060CB22 /* Sources */,
+				98CD48CF1F7894090060CB22 /* Frameworks */,
+				98CD48D01F7894090060CB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CD48D41F7894090060CB22 /* PBXTargetDependency */,
+			);
+			name = testListUITests;
+			productName = testListUITests;
+			productReference = 98CD48D21F7894090060CB22 /* testListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CD48A71F7894080060CB22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hiten;
+				TargetAttributes = {
+					98CD48AE1F7894080060CB22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					98CD48C61F7894090060CB22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98CD48AE1F7894080060CB22;
+					};
+					98CD48D11F7894090060CB22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98CD48AE1F7894080060CB22;
+					};
+				};
+			};
+			buildConfigurationList = 98CD48AA1F7894080060CB22 /* Build configuration list for PBXProject "testList" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CD48A61F7894080060CB22;
+			productRefGroup = 98CD48B01F7894080060CB22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CD48AE1F7894080060CB22 /* testList */,
+				98CD48C61F7894090060CB22 /* testListTests */,
+				98CD48D11F7894090060CB22 /* testListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CD48AD1F7894080060CB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981748231F8DFC9900FBC9F7 /* TitleTableViewCell.xib in Resources */,
+				9817481E1F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.xib in Resources */,
+				98CD48BF1F7894080060CB22 /* LaunchScreen.storyboard in Resources */,
+				98CD48BC1F7894080060CB22 /* Assets.xcassets in Resources */,
+				98CD48BA1F7894080060CB22 /* Main.storyboard in Resources */,
+				9850346E1F8F641C00C329DB /* HTCalDayGridCell.xib in Resources */,
+				981748201F8DFC9900FBC9F7 /* AttendanceFooterReusableView.xib in Resources */,
+				985034691F8F4CFA00C329DB /* CalendarSetting.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD48C51F7894090060CB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD48D01F7894090060CB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CD48AB1F7894080060CB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985034671F8F0D8000C329DB /* HTCalendarView.m in Sources */,
+				9817481D1F8DFC9900FBC9F7 /* AttendanceCellInListViewCell.m in Sources */,
+				9817481F1F8DFC9900FBC9F7 /* AttendanceFooterReusableView.m in Sources */,
+				98CD48B71F7894080060CB22 /* ViewController.m in Sources */,
+				98CD48C21F7894090060CB22 /* main.m in Sources */,
+				981748221F8DFC9900FBC9F7 /* TitleTableViewCell.m in Sources */,
+				985034641F8F0B8400C329DB /* CustomerCalendarViewController.m in Sources */,
+				98CD48B41F7894080060CB22 /* AppDelegate.m in Sources */,
+				9850346D1F8F641C00C329DB /* HTCalDayGridCell.m in Sources */,
+				98A9F2F11F9070B500C5ED6C /* GridCalModel.m in Sources */,
+				981748211F8DFC9900FBC9F7 /* AttendanceListViewCell.m in Sources */,
+				98A9F2EE1F90484400C5ED6C /* NSDate+Calendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD48C31F7894090060CB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CD48CC1F7894090060CB22 /* testListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CD48CE1F7894090060CB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CD48D71F7894090060CB22 /* testListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CD48C91F7894090060CB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CD48AE1F7894080060CB22 /* testList */;
+			targetProxy = 98CD48C81F7894090060CB22 /* PBXContainerItemProxy */;
+		};
+		98CD48D41F7894090060CB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CD48AE1F7894080060CB22 /* testList */;
+			targetProxy = 98CD48D31F7894090060CB22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CD48B81F7894080060CB22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CD48B91F7894080060CB22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98CD48BD1F7894080060CB22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CD48BE1F7894080060CB22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CD48D91F7894090060CB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98CD48DA1F7894090060CB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CD48DC1F7894090060CB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZQSJBZD4K;
+				INFOPLIST_FILE = testList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiten.testList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98CD48DD1F7894090060CB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZQSJBZD4K;
+				INFOPLIST_FILE = testList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiten.testList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98CD48DF1F7894090060CB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiten.testListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testList.app/testList";
+			};
+			name = Debug;
+		};
+		98CD48E01F7894090060CB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiten.testListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testList.app/testList";
+			};
+			name = Release;
+		};
+		98CD48E21F7894090060CB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiten.testListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testList;
+			};
+			name = Debug;
+		};
+		98CD48E31F7894090060CB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hiten.testListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CD48AA1F7894080060CB22 /* Build configuration list for PBXProject "testList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD48D91F7894090060CB22 /* Debug */,
+				98CD48DA1F7894090060CB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CD48DB1F7894090060CB22 /* Build configuration list for PBXNativeTarget "testList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD48DC1F7894090060CB22 /* Debug */,
+				98CD48DD1F7894090060CB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CD48DE1F7894090060CB22 /* Build configuration list for PBXNativeTarget "testListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD48DF1F7894090060CB22 /* Debug */,
+				98CD48E01F7894090060CB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CD48E11F7894090060CB22 /* Build configuration list for PBXNativeTarget "testListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD48E21F7894090060CB22 /* Debug */,
+				98CD48E31F7894090060CB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CD48A71F7894080060CB22 /* Project object */;
+}

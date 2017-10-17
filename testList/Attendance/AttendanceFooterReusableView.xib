@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="AttendanceFooterReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze1-wC-yV5">
+                    <rect key="frame" x="286" y="20" width="19" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Spf-8S-gta"/>
+                        <constraint firstAttribute="width" constant="19" id="dFM-oG-Ay2"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="attendanceCellUp"/>
+                    <connections>
+                        <action selector="showBtnPressed:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="K1b-Tq-zlj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="9Gg-ye-v9C" firstAttribute="trailing" secondItem="ze1-wC-yV5" secondAttribute="trailing" constant="15" id="S39-7e-1JF"/>
+                <constraint firstItem="ze1-wC-yV5" firstAttribute="centerY" secondItem="9Gg-ye-v9C" secondAttribute="centerY" id="UJC-6L-Irn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="9Gg-ye-v9C"/>
+            <connections>
+                <outlet property="showButton" destination="ze1-wC-yV5" id="3UD-DB-pH5"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="attendanceCellUp" width="19" height="10"/>
+    </resources>
+</document>
